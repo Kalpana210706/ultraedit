@@ -38,6 +38,79 @@
             gap: 5px;
             padding: 5px 10px;
         }
+
+        .griditem{
+            background-color: rgba(128, 128, 128, 0.268);
+            height: 10vw;
+            width: 30vw;
+            padding: 5px;
+            margin: 20px;
+            font-weight: bolder;
+            display: flex;
+            justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    gap: 10px; /* Creates space between language text and buttons */
+    background-color: rgba(128, 128, 128, 0.268);
+    height: 10vw;
+    width: 30vw;
+    padding: 10px;
+    margin: 20px;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    gap: 10px; 
+
+        }
+
+        .blue{
+            background-color: aqua;
+            color: white;
+            text-decoration: none;
+            border-radius: 3px;
+            padding: 5px;
+            text-align: center;
+            display: inline-block;
+            padding: 10px;
+            border-color: aqua;
+            font-size: larger;
+
+        }
+
+        .green{
+            background-color: greenyellow;
+            color: white;
+            text-decoration: none;
+            border-radius: 3px;
+            padding: 5px;
+            text-align: center;
+            display: inline-block;
+            padding: 10px;
+            border-color: greenyellow;
+            font-size: larger;
+
+            /* position: relative; */
+            /* top: 50px; */
+        }
+
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .griditem{
+            text-align: center;
+            /* position: relative; */
+        }
+
+        .buttoncon{
+            display: flex;
+            gap: 10px;
+        }
     </style>
 </head>
 <body>
@@ -51,6 +124,67 @@
     <a href="" class="hover">Our Company  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDedovnlWUPFOn1C7ryewmpG_XIZsRTL5vIQ&s" height="10" alt="downarrow" ></a>
 </div>
 </div>
-    
+<div class="container">
+<div class="griditem">English
+    <div class="buttoncon">
+    <button class="blue">Download 32-bit</button>
+    <button class="green">Download 64-bit</button>
+    </div>
+</div>
+<div class="griditem" >Deutsch
+    <div class="buttoncon">
+        <button class="blue">Download 32-bit</button>
+        <button class="green">Download 64-bit</button>
+        </div>
+</div>
+<div class="griditem" >Italiano
+    <div class="buttoncon">
+        <button class="blue">Download 32-bit</button>
+        <button class="green">Download 64-bit</button>
+        </div>
+</div>
+<div class="griditem" >espanol
+    <div class="buttoncon">
+        <button class="blue">Download 32-bit</button>
+        <button class="green">Download 64-bit</button>
+        </div>
+</div>
+<div class="griditem">francais
+    <div class="buttoncon">
+        <button class="blue">Download 32-bit</button>
+        <button class="green">Download 64-bit</button>
+        </div>
+</div>
+<div class="griditem">Portgues brasilirreo
+    <div class="buttoncon">
+        <button class="blue">Download 32-bit</button>
+        <button class="green">Download 64-bit</button>
+        </div>
+</div>
+<div class="griditem">Japanese
+    <div class="buttoncon">
+        <button class="blue">Download 32-bit</button>
+        <button class="green">Download 64-bit</button>
+        </div>
+</div>
+<div class="griditem">Korean
+    <div class="buttoncon">
+        <button class="blue">Download 32-bit</button>
+        <button class="green">Download 64-bit</button>
+        </div>
+</div>
+<div class="griditem" >Chinese
+    <div class="buttoncon">
+        <button class="blue">Download 32-bit</button>
+        <button class="green">Download 64-bit</button>
+        </div>
+</div>
+<div class="griditem" >Traditional Chinese
+    <div class="buttoncon">
+        <button class="blue">Download 32-bit</button>
+        <button class="green">Download 64-bit</button>
+        </div>
+</div>
+</div>
 </body>
 </html>
